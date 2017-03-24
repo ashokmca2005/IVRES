@@ -1,0 +1,156 @@
+/* +++++++++++++++++++++ Rotator: End here +++++++++++++++++++++++++++ */		
+#rotator {
+	POSITION: relative
+}
+#rotator DIV {
+	DISPLAY: none;
+	LEFT: 0px;
+	POSITION: absolute;
+	TOP: 0px
+}
+#rotator DIV.first {
+	DISPLAY: block;
+	width:716px;
+}
+.slideshow-style1 {
+	DISPLAY: block;
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/scontent/slideshow-style1-frame.png');
+	WIDTH: 292px;
+	HEIGHT: 200px;
+	TEXT-ALIGN: center
+}
+.slideshow-style1 DIV {
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	FONT-SIZE: 85%;
+	BORDER-BOTTOM-WIDTH: 0px;
+	MARGIN: 2px 0px 0px 11px;
+	WIDTH: 268px;
+	BACKGROUND-REPEAT: no-repeat;
+	TEXT-ALIGN: center;
+	BORDER-RIGHT-WIDTH: 0px
+}
+.slideshow-style1 IMG {
+	MARGIN-BOTTOM: 6px
+}
+.slideshow-style1 DIV SPAN {
+	DISPLAY: inline;
+	FONT-WEIGHT: normal! important;
+	FONT-FAMILY: arial, helvetica, sans-serif! important
+}
+.slideshow-style2 {
+	DISPLAY: inline;
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/scontent/slideshow-style2-frame.png');
+	FLOAT: left;
+	WIDTH: 495px;
+	HEIGHT: 175px
+}
+.slideshow-style2 UL {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+	LIST-STYLE-TYPE: none
+}
+.slideshow-style2 UL LI {
+	PADDING-RIGHT: 0px;
+	DISPLAY: inline;
+	PADDING-LEFT: 0px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	WIDTH: 245px;
+	PADDING-TOP: 0px;
+	HEIGHT: 175px;
+	TEXT-ALIGN: center
+}
+.slideshow-style2 UL LI IMG {
+	FLOAT: left
+}
+.slideshow-style2 UL LI.firstimg {
+	MARGIN-RIGHT: 5px
+}
+.slideshow-index {
+	DISPLAY: block;
+	WIDTH: 600px;
+	HEIGHT: 221px;
+}
+.slideshow-index DIV {
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	MARGIN: 0px;
+	WIDTH: 600px;
+	TEXT-ALIGN: center;
+	BORDER-RIGHT-WIDTH: 0px;
+}
+.floatl {
+	FLOAT: left
+}
+.floatr {
+	FLOAT: right
+}
+.slideshow-index DIV {
+	HEIGHT: 221px
+}
+#rotator {
+	HEIGHT: 221px
+}
+.btn-img {
+	RIGHT: 70px;
+	BOTTOM: 52px;
+	POSITION: absolute
+}
+.rotator-img {
+	LEFT: 0px;
+	POSITION: absolute;
+	TOP: 0px;
+	font-size:18px;
+}
+.icon-rotators {
+	RIGHT: 70px;
+	BOTTOM: -6px;
+	POSITION: absolute
+}
+.icon-rotators A {
+	DISPLAY: block;
+	FLOAT: left;
+	MARGIN-LEFT: 3px;
+	WIDTH: 10px;
+	CURSOR: pointer;
+	HEIGHT: 10px;
+}
+.slideshow-index H2 {
+	FONT-SIZE: 197%;
+	RIGHT: 0px;
+	WIDTH: 340px;
+	POSITION: absolute;
+	TOP: 0px;
+	TEXT-ALIGN: center
+}
+
+.property-links {
+	RIGHT: 70px;
+	BOTTOM: -45px;
+	POSITION: absolute;
+}
+
+.property-links a:link{color:#000000; text-decoration:underline; font-size:14px; font-weight:bold;} 
+.property-links a:visited{color:#000000; text-decoration:underline; font-size:14px; font-weight:bold;}
+.property-links a:hover{color:#000000; text-decoration:underline; font-size:14px; font-weight:bold;}
+
+/*
+.property-links A {
+	DISPLAY: block;
+	FLOAT: left;
+	MARGIN-LEFT: 3px;
+	WIDTH: 10px;
+	CURSOR: pointer;
+	HEIGHT: 10px;
+}
+*/
+
+/* +++++++++++++++++++++ Rotator: End here +++++++++++++++++++++++++++ */		

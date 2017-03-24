@@ -1,0 +1,115 @@
+/*new styles Starts*/
+		
+	td.calBox
+		{
+		background:#e8e8e8;
+		}
+	td.calBox A
+		{
+		color:#666666;
+		text-decoration:none;
+		display:block;
+		}
+		
+	td.calBox A:hover
+		{
+		color:#666666;
+		}
+		
+	table.calDate 
+	{
+	height:158px;
+	}
+	table.calDate td 
+	{
+	/*vertical-align:bottom;*/
+	padding-right:3px;
+	}
+	table.calDate td a
+	{
+	padding: 0px;
+	padding-top: 8px;
+	display: block;
+	}
+	
+	.vfont12 
+	{
+	font-size: 11px;
+	color: #585858;
+	line-height: 16px;
+	}
+	.fontArial
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	td.dashvk 
+	{
+	font-size: 0px;
+	margin: 0px;
+	padding: 0px;
+	background: url(../../images/cal_img/dash.gif) repeat-x left 50%;
+	}
+
+	.calBg
+	{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+	(src='../../images/cal_img/cal-window-bg.png',sizingMethod='scale');
+	width:180px;
+	padding:12px 5px 12px 7px;
+	}
+	head:first-child+body .calBg{ /*The Owen Hack, hides this from ie*/
+	background: url(../../images/cal_img/cal-window-bg.png) repeat-x transparent;
+	height:273px;
+	}
+	.leftBg
+	{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+	(src='../../images/cal_img/cal-window-left.png',sizingMethod='crop');
+	width:22px;
+	height:273px;
+	}
+	head:first-child+body .leftBg{ /*The Owen Hack, hides this from ie*/
+	background: url(../../images/cal_img/cal-window-left.png) no-repeat right top;
+	display:block;
+	width:22px;
+	height:273px;
+	}
+	.leftBg1
+	{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+	(src='../../images/cal_img/cal-window-left-reverse.png',sizingMethod='crop');
+	width:12px;
+	height:273px;
+	}
+	head:first-child+body .leftBg1{ /*The Owen Hack, hides this from ie*/
+	background: url(../../images/cal_img/cal-window-left-reverse.png) no-repeat right top;
+	display:block;
+	width:10px;
+	height:273px;
+	}
+	.rightBg
+	{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+	(src='../../images/cal_img/cal-window-right.png',sizingMethod='crop');
+	width:12px;
+	height:273px;
+	}
+	head:first-child+body .rightBg{ /*The Owen Hack, hides this from ie*/
+	background: url(../../images/cal_img/cal-window-right.png) no-repeat left top;
+	display:block;
+	width:10px;
+	height:273px;
+	}
+	.rightBg1
+	{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+	(src='../../images/cal_img/cal-window-right-reverse.png',sizingMethod='crop');
+	width:22px;
+	height:273px;
+	}
+	head:first-child+body .rightBg1{ /*The Owen Hack, hides this from ie*/
+	background: url(../../images/cal_img/cal-window-right-reverse.png) no-repeat left top;
+	display:block;
+	width:22px;
+	height:273px;
+	}	

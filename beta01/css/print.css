@@ -1,0 +1,1590 @@
+/*
+	Name: onelocation.com stylesheet
+	Description: Site styles for onelocation.com
+	Version: 1.0
+	Author: Dare to Think
+	Author URI: http://www.daretothink.co.uk
+*/
+
+/********** main layout **********/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrap {
+	width: 98%;
+	background-color: #fff;
+	position: absolute;
+}
+
+#header-top {
+	display: none;
+}
+
+#header-top h1 a {
+	color: #666;
+	line-height: 33px;
+	font-size: 11px;
+	float: left;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#login-link {
+	display: none;
+}
+
+#header {
+	width: 98%;
+	height: 90px;
+	padding: 0 0 0 25px;
+	background-color: #fff;
+	
+}
+
+#content {
+	width: 98%;
+	padding: 0 0 0 25px;
+	background-color: #fff;
+	position: relative;
+}
+
+#logo {
+	margin: 0;
+	float: left;
+}
+
+#banner {
+	display: none;
+}
+
+.noprint {
+	display: none;
+}
+
+/********** Breadcrumb Trail **********/
+
+#breadcrumb {
+	display: none;
+}
+
+/********** footer **********/
+
+#footer {
+	display: none;
+}
+
+#footer-links ul {
+	margin: 0px;
+	padding: 0px;	
+}
+
+#footer-links {
+	float: left;
+	width: 876px;
+	background-color: #817e79;
+	padding: 40px 0 40px 50px;
+}
+
+#footer-links a {
+	color: #fff;
+}
+
+#footer-links dl {
+	clear: both;
+	width: 851px;
+	float: left;
+	margin: 0;
+}
+
+#footer-links .top {
+	color: #fff;
+	margin-bottom: 6px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#footer-links dd {
+	width: 207px;
+	float: left;
+	margin: 0;
+}
+
+#footer-links dd li {
+	list-style-type: none;
+	margin-left: 0px;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+#footer-copyright {
+	padding: 15px 0 20px;
+	margin: 0 0 0 25px;
+}
+
+/********** Main menu **********/
+
+#navbar {
+	display: none;
+}
+
+#navbar ul {
+	color: #fff;
+	margin: 0;
+	list-style-type: none;
+	font-size: 13px;
+	padding: 0;
+	font-weight: bold;	
+}
+
+#navbar ul#navlist {
+	width: 715px;
+	height: 39px;
+	padding-left: 10px;
+	float: left;
+}
+
+#navbar ul#login {
+	width: 105px;
+}
+
+#navbar ul li {
+	color: #fff;
+	display: inline;
+	line-height: 39px;
+	padding: 8px 10px;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}
+
+#navbar .owner-login a {
+	color: #fff;
+}
+
+#navbar ul li a:hover {
+	color: #000;
+}
+
+#navbar ul li a#current {
+	color: #000;
+}
+
+#navbar #country-select {
+	height: 39px;
+	float: left;
+	width: 170px;
+}
+
+#vertical { 
+	float:left; 
+	width:100%; 
+	height:50%; 
+	margin-top:-10px; /* half the select height*/ 
+}
+
+#navbar select {
+	clear:both;	
+	width: 180px;
+}
+
+/********** Useful Elements **********/
+
+.full {
+	width: 926px;
+}
+
+.right {
+	float: right;
+}
+
+block {
+}
+
+p {
+	margin: 0;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #4c72aa;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.red {
+	color: #990000;
+}
+
+form {
+	margin: 0;
+	float: left;
+}
+
+img {
+	border: none;
+}
+
+/********** Fonts used throughout **********/
+
+#logo a {
+	outline: none;
+}
+
+h2.property-title {
+	color: #4c72aa;
+	letter-spacing: -0.5px;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h3.property-tag {
+	color: #000000;
+	line-height: 18px;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h4.property-heading {
+	color: #000;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.grey11 {
+	color: #666;
+	line-height: 14px;
+	font-size: 11px;
+}
+
+.grey12 {
+	color: #666;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.grey13 {
+	color: #666;
+	line-height: 18px;
+	font-size: 13px;
+}
+
+.grey13bold {
+	color: #666;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.grey15 {
+	color: #666;
+	line-height: 18px;
+	font-size: 15px;
+}
+
+.grey15bold {
+	color: #666;
+	line-height: 18px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.blue11 {
+	color: #4c72aa;
+	line-height: 14px;
+	font-size: 11px;
+}
+
+.blue12 {
+	color: #4c72aa;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.blue12bold {
+	color: #4c72aa;
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.blue13 {
+	color: #4c72aa;
+	line-height: 18px;
+	font-size: 13px;
+}
+
+.blue13bold {
+	color: #4c72aa;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.blue14bold {
+	color: #4c72aa;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.blue15 {
+	color: #4c72aa;
+	line-height: 18px;
+	font-size: 15px;
+}
+
+.blue15bold {
+	color: #4c72aa;
+	line-height: 18px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.blue18 {
+	color: #4c72aa;
+	line-height: 21px;
+	font-size: 18px;
+}
+
+.blue18bold {
+	color: #4c72aa;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.blue24 {
+	color: #4c72aa;
+	letter-spacing: -0.5px;
+	line-height: 24px;
+	font-size: 24px;
+}
+
+.black11 {
+	color: #000000;
+	line-height: 14px;
+	font-size: 11px;
+}
+
+.black12 {
+	color: #000000;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.black13 {
+	color: #000000;
+	line-height: 18px;
+	font-size: 13px;
+}
+
+.black12bold {
+	color: #000000;
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.black13bold {
+	color: #000000;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.black14bold {
+	color: #000000;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.black15 {
+	color: #000000;
+	line-height: 18px;
+	font-size: 15px;
+}
+
+.black15bold {
+	font-size: 15px;
+	color: #000000;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+.black18 {
+	color: #000000;
+	line-height: 21px;
+	font-size: 18px;
+}
+
+.black18bold {
+	color: #000000;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.black24 {
+	color: #000000;
+	letter-spacing: -0.5px;
+	line-height: 28px;
+	font-size: 24px;
+}
+
+.white13 {
+	color: #fff;
+	line-height: 18px;
+	font-size: 13px;
+}
+
+.white18 {
+	color: #fff;
+	line-height: 21px;
+	font-size: 18px;
+}
+
+/********** Margins **********/
+
+.ln-ht-33 {
+	line-height: 33px;
+}
+
+.mgn-lf-0 {
+	margin-left: 0px;
+}
+
+.mgn-lf-5 {
+	margin-left: 5px;
+}
+
+.mgn-lf-10 {
+	margin-left: 10px;
+}
+
+.mgn-lf-30 {
+	margin-left: 30px;
+}
+
+.mgn-tp-5 {
+	margin-top: 5px;
+}
+
+.mgn-tp-10 {
+	margin-top: 10px;
+}
+
+.mgn-tp-15 {
+	margin-top: 15px;
+}
+
+.mgn-tp-20 {
+	margin-top: 20px;
+}
+
+.mgn-bt-5 {
+	margin-bottom: 5px;
+}
+
+.mgn-bt-10 {
+	margin-bottom: 10px;
+}
+
+.mgn-bt-15 {
+	margin-bottom: 15px;
+}
+
+.mgn-bt-20 {
+	margin-bottom: 20px;
+}
+
+.mgn-rt-0 {
+	margin-right: 0px;
+}
+
+.mgn-rt-5 {
+	margin-right: 5px;
+}
+
+.mgn-rt-10 {
+	margin-right: 10px;
+}
+
+/********** Star Rating **********/
+
+.star-0-0, .star-0-5, .star-1-0, .star-1-5, .star-2-0, .star-2-5, .star-3-0, .star-3-5, .star-4-0, .star-4-5, .star-5-0 {
+	width: 110px;
+	height: 21px;
+}	
+
+.star-0-0, .star-0-5, .star-1-0, .star-1-5, .star-2-0, .star-2-5, .star-3-0, .star-3-5, .star-4-0, .star-4-5, .star-5-0 {
+	background: url(../images/icon-stars.png) no-repeat;
+}
+
+.star-0-0 {
+	background-position: 0 0;
+}
+
+.star-0-5 {
+	background-position: 0 -22px;
+}
+
+.star-1-0 {
+	background-position: 0 -44px;
+}
+
+.star-1-5 {
+	background-position: 0 -66px;
+}
+
+.star-2-0 {
+	background-position: 0 -88px;
+}
+
+.star-2-5 {
+	background-position: 0 -110px;
+}
+
+.star-3-0 {
+	background-position: 0 -132px;
+}
+
+.star-3-5 {
+	background-position: 0 -154px;
+}
+
+.star-4-0 {
+	background-position: 0 -176px;
+}
+
+.star-4-5 {
+	background-position: 0 -198px;
+}
+
+.star-5-0 {
+	background-position: 0 -220px;
+}
+
+/********** Lists **********/
+
+ul.bullet {
+	margin-left: 5px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding: 0;
+}
+
+ul.bullet li {
+	margin: 0 0 2px 10px;
+	padding: 0;
+	list-style-type: circle;
+}	
+
+ul.tick {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding: 0;
+}
+
+ul.tick li {
+	margin: 0 0 2px 0px;
+	padding: 0 0 0 20px;
+	background: url(../images/bullet-tick.png) no-repeat 0 2px;
+	font-size: 12px;
+}	
+
+/**************************/
+/********** Home **********/
+/**************************/
+
+#panel-home {
+	width: 926px;
+	height: 224px;
+	margin-bottom: 30px;
+	background: #817e79 url(../images/world-map.gif) no-repeat 560px 46px;
+}
+
+#slider {
+    width: 380px;
+    height: 224px;
+	float: left;
+}
+
+.imageSlideshowHolder,.imageSlideshowHolder_left {
+	float: left;
+	width: 336px;
+	height: 224px;
+	position: relative;
+}
+
+.imageSlideshowHolder img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#regions-home {
+	width: 345px;
+	height: 206px;
+	float: left;
+	padding-top: 18px;
+	padding-left: 37px;
+	position: relative;
+}
+
+#countries-home {
+	width: 176px;
+	height: 206px;
+	float: left;
+	padding-top: 18px;
+	padding-left: 25px;
+}
+
+#countries-home a {
+	color: #fff;
+}	
+
+#region-americas {
+	width: 110px;
+	height: 110px;
+	border: 1px solid white;
+	position: absolute;
+	bottom: 33px;
+	left: 52px;
+	float: left;
+}
+
+#region-europe {
+	width: 43px;
+	height: 43px;
+	border: 1px solid white;
+	position: absolute;
+	bottom: 110px;
+	left: 175px;
+	float: left;
+}
+
+#region-africa {
+	width: 73px;
+	height: 73px;
+	border: 1px solid white;
+	position: absolute;
+	bottom: 33px;
+	left: 175px;
+}
+
+#region-australasia {
+	width: 61px;
+	height: 61px;
+	border: 1px solid white;
+	position: absolute;
+	bottom: 33px;
+	left: 275px;
+}
+
+/*
+#region-americas a:hover,
+#region-europe a:hover,
+#region-africa a:hover,
+#region-australasia a:hover {
+	
+}
+*/
+
+#countries-home form select {
+	width: 175px;
+	font-size: 12px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #4c72aa;
+	margin: 0 0 15px;
+	line-height: 30px;
+}
+
+#home-col1 {
+	width: 340px;
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+#home-col2 {
+	width: 360px;
+	float: left;
+	padding: 0;
+	border-right: 1px dashed #b0b0b0;
+	margin-right: 33px;	
+}
+
+#home-col3 {
+	width: 168px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/********** Newsletter **********/
+
+#newsletter {
+	padding: 0 0 25px;
+	width: 340px;
+	border-bottom: 1px solid #d7d7d7;
+	float: left;
+	
+}
+
+.newsletter-fields {
+	float: left;
+	width: 338px;
+	margin: 10px 0 0;
+}
+
+#newsletter input {
+	float: left;
+	width: 161px;
+	padding: 3px 0 3px 3px;
+	border: 1px solid #8d8d8d;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+.newsletter-rss {
+	float: right;
+	background: url(../images/rss-icon.png) no-repeat right;
+	padding-right: 20px;
+	line-height: 33px;
+	margin-right: 45px;
+	width: 138px;
+	margin-left: 5px;
+}
+
+.newsletter-button {
+	float: left;
+	height: 33px;
+}
+
+#twitter {
+	width: 272px;
+	height: 42px;
+	background: url(../images/twitter-bird.gif) no-repeat;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	padding: 0 20px 0 48px;
+	float: left;
+	
+}
+
+#offers-tp,
+#offers-bt {
+	width: 340px;
+	float: left;
+	font-size: 0px;
+	height: 3px;
+}
+
+#offers-md {
+	width: 298px;
+	border-right: 1px solid #b3b3b3;
+	border-left: 1px solid #b3b3b3;
+	padding: 20px;
+	float: left;
+	background: url(../images/icon-sale.gif) no-repeat 220px 30px;
+	margin-right: 0;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+/********** Special Offers **********/
+
+.sp-offer {
+	float: left;
+	margin: 10px 0;
+}
+
+.sp-offer-photo {
+	width: 90px;
+	height: 70px;
+	float: left;	
+}
+
+.sp-offer-text {
+	width: 191px;
+	height: 70px;
+	float: left;
+	padding: 0 0 0 15px;
+	line-height: 70px;
+}
+
+/********** Advertise and Top 10 **********/
+
+#advertise {
+	width: 296px;
+	padding: 15px;
+	background: #e9f0f9 url(../images/icon-price.gif) no-repeat 214px 20px;
+	margin-bottom: 20px;
+}
+
+#top10 {
+	padding-left: 20px;
+}
+
+/********** Hot Properties **********/
+
+.hot {
+	width: 168px;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.hot-photo {
+	width: 168px;
+	height: 126px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.hot-title {
+	color: #4c72aa;
+	line-height: 15px;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+.hot-text {
+	width: 168px;
+	float: left;
+}
+
+/********** Main Property **********/
+
+/********** Property Details **********/
+
+h1 {
+	font-size: 32px;
+}
+
+#property-intro {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;	
+}
+
+#property-details {
+	width: 360px;
+	float: left;
+	height: 360px;
+	position: relative;
+}
+
+#main-details {
+	margin: 0 0 20px;
+	float: left;
+}
+
+#property-links {
+	display: none;
+}
+
+#property-links ul {
+    width: 886px;
+    margin-left: 15px;
+}
+
+#property-links li {
+    margin: 0 80px 0 0;
+    line-height: 20px;
+    float:left;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 10px;
+	list-style-type: circle;
+}
+
+#property-details-main {
+	float: left;
+	padding: 0 20px 10px 0;
+}
+
+.rating-title-main {
+	font-size: 12px;
+	line-height: 21px;
+	height: 21px;
+	float: left;
+}
+
+#property-highlights {
+	float: left;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #4c72aa;
+	bottom: 0px;
+	position: absolute;
+	border: 1px solid #000;
+}
+
+#property-highlights ul {
+    margin-left: 15px;
+}
+
+#property-highlights ul li {
+    margin: 0 0 5px;
+    line-height: 16px;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 10px;
+	list-style-type: circle;	
+}
+
+.link-contact-owner {
+	float: left;
+	padding-left: 30px;
+	background: url(../images/icon-email.gif) no-repeat 2px;
+}
+
+.link-share-facebook {
+	float: left;
+	padding-left: 20px;
+	background: url(../images/icon-facebook.gif) no-repeat 2px;
+	margin-left: 20px;
+	width: 210px;
+}
+
+.link-share-social {
+	float: left;
+	padding-left: 20px;
+	background: url(../images/icon-add.gif) no-repeat 2px;
+	margin-left: 12px;
+	width: 222px;
+}
+
+.star-rating-main {
+	float: left;
+	margin: 0 0 20px;
+	width: 380px;
+}
+
+/********** Photo Gallery **********/
+
+#property-gallery {
+	width: 480px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#gallery {
+	position: relative;
+	width: 480px;
+}
+
+#images {
+	height: 225px;
+	background: #eef5f6;
+	margin-bottom: 20px
+}
+
+#image {
+	width: 480px;
+	height: 360px;
+	background: #FFF url(../images/loading.gif) center center no-repeat
+}
+
+#image img {
+	position: absolute;
+}
+
+#thumbwrapper {
+	display: none;
+}
+
+#thumbarea {
+	display: none;
+}
+
+#thumbs {
+	position: absolute;
+	list-style: none;
+	height: 69px;
+	width: 6000px;
+	
+}
+
+#thumbs li {
+	float: left;
+	margin-right: 5px;
+	cursor: pointer
+}
+
+.imgnav {
+	position: absolute;
+	height: 375px;
+	z-index: 100;
+	outline: none;
+	cursor: pointer;
+	width: 20%;
+}
+
+/********** Property Tabs **********/
+
+#property-tabs {
+	width: 100%;
+	margin: 0;
+}
+
+div.panes div.tab-content {
+	padding: 0;
+	margin-top: 0px;
+}
+
+ul.tabs {
+	display: none;
+}
+
+ul.tabs li {
+	float: left;
+	text-indent: 0;
+	padding: 0;
+	margin: 0 !important;
+	list-style-image: none !important;
+	width: 185px;
+}
+
+.tabs #last{
+	width: 186px;
+}
+
+ul.tabs a {
+	background: url(../images/tab-property.gif) no-repeat 0 -0px;
+	font-size: 14px;
+	display: block;
+	height: 34px;
+	text-align: center;
+	text-decoration: none;
+	color: #4c72aa;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	top: 1px;
+	line-height: 34px;
+	outline: none;
+}
+
+ul.tabs a:active {
+	outline: none;
+}
+
+ul.tabs a:hover {
+	background-position: 0px -34px;
+}
+
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	background-position: 0px -34px;
+	cursor: default !important;
+	color: #000;
+}
+
+div.panes div.pane {
+	display: none;
+}
+
+/********** Property Tab - Description **********/
+
+#tab-ds-intro-panel {
+	width: 100%;
+}
+
+#tab-ds-intro-panel p {
+	color: #666;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+#tab-ds-intro-lf {
+	width: 100%;
+	border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+}
+
+#tab-ds-intro-rt {
+	width: 100%;
+}
+
+#tab-ds-beds-baths {
+	width: 926px;
+	font-size: 12px;
+	color: #797979;
+	line-height: 18px;
+}
+
+#tab-ds-beds-baths dl.left{
+	width: 926px;
+	margin-bottom: 5px;
+}
+
+#tab-ds-intro-rt dl.right{
+	width: 926px;
+	margin-bottom: 10px;
+}
+
+#tab-ds-beds-baths dl dt { 
+	display: inline;
+	margin-right: 5px;
+}
+
+#tab-ds-beds-baths dl dt.no { 
+	display: none
+}
+
+#tab-ds-beds-baths dl dd { 
+	display: inline;
+	margin-right: 20px;
+}
+
+#tab-ds-beds-baths dl dd.yes {
+	background: url(../images/icon-tick.gif) no-repeat 0 0;
+	width: 12px;
+	height: 13px;
+	padding-left: 20px;
+}
+
+#tab-ds-beds-baths dl dd.no {
+	display: none;
+}
+
+.checklist-container {
+	width: 100%;
+}
+
+.checklist-container-2 {
+	width: 100%;
+	border-bottom: 1px solid #666;
+}
+
+.tab-ds-checklist {
+	width: 100%;
+	margin-right: 31px;
+	margin-bottom: 20px;
+}
+
+.tab-ds-checklist.zero-right {
+	margin-right: 0px;
+}
+
+.tab-ds-checklist p {
+	color: #666;
+	line-height: 14px;
+	font-size: 11px;
+}
+
+.tab-ds-checklist ul {
+	margin: 8px 0;
+}
+
+.tab-ds-checklist li.yes {
+    margin: 0 20px 0 0;
+	list-style-type: none;
+	background: url(../images/icon-tick.gif) no-repeat 0 0;
+	color: #666;
+	font: 12px/20px Arial;
+	padding: 0 0 0 16px;
+	display: inline;
+}
+
+.tab-ds-checklist li.no {
+    display: none;
+}
+
+.tab-ds-more {
+	display: none;
+}
+
+/********** Property Tab - Prices **********/
+
+#tab-pr-intro-panel {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #666;
+	padding-bottom: 10px;
+}
+
+#tab-pr-intro-lf {
+	width: 100%;
+	padding-top: 20px;
+}
+
+#tab-pr-intro-rt {
+	width: 100%;
+}
+
+#tab-pr-intro-rt p {
+	color: #666;
+	line-height: 18px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+#prices-chart {
+	font-size: 10px;
+	margin: 20px 0;
+}
+
+#prices-chart table {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+	font-size: 12px;
+	color: #666;
+	border-bottom: 1px solid #cfcfcf;	
+}
+
+#prices-chart tr.col-title td {
+	font-weight: bold;
+	font-size: 13px;
+	border-bottom: 1px solid #cfcfcf;
+	text-align: left;
+	padding-bottom: 6px;
+	color: #000;
+	padding-left: 5px;
+}
+
+#prices-chart #col1 {
+	width: 185px;
+}
+
+#prices-chart #col2 {
+	width: 90px;
+}
+
+#prices-chart #col3 {
+	width: 90px;
+}
+
+#prices-chart #col4 {
+	width: 70px;
+}
+
+#prices-chart #col5 {
+	width: 185px;
+}
+
+#prices-chart tr.period-odd td {
+	background-color: #ededed;
+}
+
+#prices-chart tr.period-odd td,
+#prices-chart tr.period-even td {
+	padding: 5px 0 5px 5px;
+}
+
+/********** Property Tab - Location **********/
+
+#tab-lc-intro-lf {
+	width: 480px;
+	float: left;
+}
+
+#tab-lc-intro-rt {
+	width: 400px;
+	float: right;
+}
+
+#tab-lc-intro-rt p {
+	color: #666;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+#distances-chart {
+	font-size: 12px;
+	color: #666;	
+	float: left;
+	margin-bottom: 20px;
+	width: 400px;
+	margin-top: 10px;
+}
+
+#distances-chart table {
+	width: 178px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+#distances-chart tr {
+	border-top: 1px dashed #c9c9c9;
+	border-bottom: 1px dashed #c9c9c9;
+}
+
+#distances-chart tr td {
+	padding: 5px 0;
+}
+
+#distances-chart tr td.right {
+	text-align: right;
+}
+
+/********** Property Tab - Guest Comments **********/
+
+#tab-cm-intro-panel {
+	width: 926px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.guest-comment {
+	width: 926px;
+	margin-top: 25px;
+	float: left;
+}
+
+.guest-comment h4 {
+	color: #4c72aa;
+	letter-spacing: -0.5px;
+	line-height: 24px;
+	font-size: 24px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.guest-comment p {
+	color: #666;
+	line-height: 18px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.guest-comment p.details {
+	color: #000;
+	font-size: 12px;
+	float: left;
+	width: 926px;
+	margin: 0;
+}
+
+.star-rating {
+	float: left;
+	margin: 10px 0;
+}
+
+.star-overall {
+	float: left;
+	height: 21px;
+	margin: 0 5px;
+}
+
+.star-select {
+	width: 22px;
+	height: 21px;
+	background: url(../images/icon-star-select.gif) no-repeat;
+	float: left;
+}
+
+.star-nonselect {
+	width: 22px;
+	height: 21px;
+	background: url(../images/icon-star-nonselect.gif) no-repeat;
+	float: left;
+}
+
+.testdiv {
+	height: 21px;
+	float: left;
+	background-color: yellow;
+}
+
+.rating-title {
+	float: left;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000;
+	height: 21px;
+}
+
+.rating-score {
+	float: left;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #000;
+	height: 21px;
+}
+
+.rating-comments {
+	float: left;
+	font-size: 12px;
+	line-height: 22px;
+	color: #4c72aa;
+	height: 21px;
+}
+
+#add-a-review {
+	float: right;
+	height: 33px;
+	line-height: 33px;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #4c72aa;
+	margin-top: -10px;
+	width: 360px;
+}
+
+/********** Property Tab - Contact Owner **********/
+
+.contactshow {
+	display:block !important;
+}
+
+#form-panel {
+	display: none;
+}
+
+.single-row {
+	margin: 6px 0;
+}
+
+.submit-row {
+	height: 33px;
+	margin: 6px 0 0;
+	line-height: 33px;
+	float: right;
+	width: 470px;
+}
+
+.single-row label {
+	width: 120px;
+	text-align: right;
+	display: block;
+	float: left;
+	line-height: 25px;
+	padding-right: 10px;
+}
+
+.single-row label.long {
+	text-align: left;
+	line-height: 25px;
+	width: 160px;
+}
+
+.single-row input {
+	padding: 5px;
+	border: 1px solid #c9c9c9;
+}
+
+.single-row input a:hover{
+	border: 1px solid red;
+}
+
+.single-row textarea {
+	padding: 5px;
+	border: 1px solid #c9c9c9;
+	width: 460px;
+	height: 100px;
+}
+
+.single-row textarea,
+.single-row input {
+	font: 12px Arial;
+	color: #666;
+}
+
+.single-row input#txtUserFName,
+.single-row input#txtUserLName,
+.single-row input#txtUserEmail {
+	width: 200px;
+}
+
+.single-row input#txtArrive {
+	width: 60px;
+}
+
+.single-row input#txtDurationId,
+.single-row input#txtFlexibleDaysId,
+.single-row input#txtAdults,
+.single-row input#txtChildren,
+.single-row input#txtUnder2 {
+	width: 20px;
+}
+
+#owner-details {
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+
+#owner-details p {
+	margin-bottom: 5px;
+}
+
+/********** Individual Event **********/
+
+#event-col2 {
+	width: 100%
+}
+
+#event-col2 h2 {
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+#event-col2 p {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+#event-col2 .full {
+	width: 100%;
+}
+
+#event-col2 img {
+	margin-bottom: 20px;
+}
+
+#event-col1,
+#event-col3 {
+	display: none;
+}
+
+#event-col2 .info table {
+	width: 100%
+}
+
+#event-col2 .info td {
+	padding: 4px 0;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+#event-col2 .info table .col1 {
+	width: 90px;
+}

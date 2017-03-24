@@ -1,0 +1,20 @@
+.textbox1 {
+	float: left;
+	height: auto;
+	line-height:20px;
+	color:#407bde;
+	width: 130px;
+}
+.bottomarea {
+	height: auto;
+	width: 100%;
+	clear:both;
+}
+.icon-rotators {
+	RIGHT: 5px;
+	BOTTOM: 5px;
+	POSITION: absolute;
+}
+.date-icon {
+	padding-right:100px;
+}

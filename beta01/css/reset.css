@@ -1,0 +1,89 @@
+/* CSS Document */
+* html img, * html .png {
+	behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",  this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",  this.src = "blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("', '').replace('")', ''),  this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",  this.runtimeStyle.backgroundImage = "none")), this.pngSet=true)  );
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+/* End hide from IE-mac */
+html {
+	height:100%;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px auto;
+	background:#ffffff;
+	font-size:12px;
+	color:#8a8a8a;
+}
+
+form, input, p, div, label, h1, h2, h3, h4, h5, h6, h7, select {
+	/*color: #585858;*/
+	/*color: #000000;*/
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+a {
+	color:#5c5c5c;
+	text-decoration:none;
+}
+a:hover {
+	color:#fea338;
+	text-decoration:underline;
+}
+ul {
+	padding:0px;
+	margin:0px;
+	list-style: none;
+}
+li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+img {
+	border:none;
+}
+h1 {
+	color:#0092d6;
+	font-size:25px;
+}
+h2 {
+	color:#0092d6;
+	font-size:22px;
+}
+h3 {
+	color:#0092d6;
+	font-size:18px;
+}
+h4 {
+	color:#0092d6;
+	font-size:17px;
+}
+h5 {
+	color:#0092d6;
+	font-size:16px;
+}
+h6 {
+	color:#0092d6;
+	font-size:15px;
+}
+select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 2px 2px 2px 2px;
+	border: 1px solid #9F9F9F;
+}

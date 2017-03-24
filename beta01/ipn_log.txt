@@ -1,0 +1,88 @@
+[03/19/2011 6:37 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Date: Sat, 19 Mar 2011 12:37:39 GMT
+Server: Apache
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=mpneZnh4KToR_I2aoNgfFZ1-pbTolbA6AAOEFBZEkHTfVrYaQARjZ1S29ScsG-rFIdS_k4wU5reYB10_tI0U_3sT5CCEcE_CCTV40gQkA9cGw_5HHybt740FiUPsc-4IBCphWm%7cSZ8UksMpB_UUJ_nqVaQMQvMdMFeHV13iPigXNv_n1Xz2qsYWmSH0dlr_SBZ-3pGlVHsADG%7cgb4UcqrtNpA64qw_5YUG4OdW4VOHmWZWtlRvqZhjyRQBxyo52ekYydOSBDkJfvFLGR1Lnm%7c1300538260; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 16-Mar-2021 12:37:40 GMT; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 14-Mar-2031 12:37:40 GMT; domain=.paypal.com; path=/; HttpOnly
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+7
+INVALID
+0
+
+
+
+[03/19/2011 6:41 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Date: Sat, 19 Mar 2011 12:41:15 GMT
+Server: Apache
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=UctpuaoBtoVZZAjNMuN2g3pKCWLSKmWsklLOey88IGn5fFwTgeg5dlcfqnIX-S-yo2wzJ3YIswFgCmBBObGTil__sC7-klGsCt6wbc1I9S3VaqXSoQ_mQ09s-Uurl78mQ6DAuG%7cS6cBn6yWxIXdMpQcaPwTJ16yIfa3K-p4J47VxQqvYIcmgZSmo-U7dMw7_Vt-pxJShJC_fm%7cL2zkR5AER3BMOPGmj55A2vOcXVX7WxeiMC_axyrf2t8spqS-BHtExINC1jk9S9FuePFaC0%7c1300538476; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 16-Mar-2021 12:41:16 GMT; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 14-Mar-2031 12:41:16 GMT; domain=.paypal.com; path=/; HttpOnly
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+7
+INVALID
+0
+
+
+
+[03/19/2011 6:41 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Date: Sat, 19 Mar 2011 12:41:53 GMT
+Server: Apache
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=K1MKbTd7Il6lvOEYdmc9eiKT9bsbqtma90_s5-oAWd0yx3rk_fQZy4EC6NFN397zVcfKlxbAaZG9sC21hDEazKRUuOB4ylIBKT7Vmhqb4UTVho6FKLP1CAiL4Hfqs7yyNpEKkW%7ccLruf7Xhe7UjiOT_HcgIN7jDYhEj74dui5fMJ06t1pGP6TLiu0GBEmAZIga5OxvJc3OLym%7cVGZDw6PZ46uQIqzvaDqgbnXGwt4WNnxDmJn9vRX3xCoIlUS6pgTRHSe2LHLiiLvlbjth-W%7c1300538513; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 16-Mar-2021 12:41:53 GMT; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 14-Mar-2031 12:41:53 GMT; domain=.paypal.com; path=/; HttpOnly
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+7
+INVALID
+0
+
+
+
+[03/19/2011 6:44 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Date: Sat, 19 Mar 2011 12:44:58 GMT
+Server: Apache
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=QkugSPss1HWayMMX4EHbOzYvhRmlNzjh1RpI1gmXejPJfCBQuB-sbaIFckBGpN313rtp_MId2z2dAvX8wwPIHpRBxgW_YO835RRJ_PIZIVTYHoCwMuxq4hYOp77TY5z6CjLtu0%7cAlSdv86RieWsJIanEvWPMwsFIeK8Ze7ssZBn05fS-qhsBNhjJ9XopykXAFS8vyCUuBvt40%7cjs5vl5fW2GggPzzlv7ELvetl2avTi0r-sfuSAdIt4nZ4jG1nZpWZyOxykwxgOtqmmSnJh0%7c1300538699; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 16-Mar-2021 12:44:59 GMT; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 14-Mar-2031 12:44:59 GMT; domain=.paypal.com; path=/; HttpOnly
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+7
+INVALID
+0
+
+
+

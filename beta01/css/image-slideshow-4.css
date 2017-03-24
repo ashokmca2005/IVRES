@@ -1,0 +1,14 @@
+/* CSS FOR SLIDESHOW SCRIPT */
+.imageSlideshowHolder,.imageSlideshowHolder_left{
+	margin:0px;	/* "Air" */
+	float:left; /* Floating gallery at the right side of other web page content */		
+	width:570px;	/* Image width */
+	height:325px;	/* Image height */
+	position:relative;	/* Don't remove this line */
+}
+/* Don't change these values */
+.imageSlideshowHolder img{
+	position:absolute;
+	left:0px;
+	top:0px;
+}

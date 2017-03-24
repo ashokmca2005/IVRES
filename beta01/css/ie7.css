@@ -1,0 +1,68 @@
+.textbox1 {
+	float: left;
+	height: auto;
+	line-height:20px;
+	color:#407bde;
+	width: 130px;
+}
+.bottomarea {
+	height: auto;
+	width: 100%;
+	clear:both;
+}
+.icon-rotators {
+	RIGHT: 5px;
+	BOTTOM: 5px;
+	POSITION: absolute;
+}
+.date-icon {
+	padding-right:100px;
+}
+.topright {
+	width:600px;
+	height:auto;
+	float:right;
+	overflow:hidden;
+}
+.toplinks {
+	width:70%;
+	margin-left:185px;
+	margin-top:5px;
+	height:auto;
+	overflow:hidden;
+	color:#00bfff;
+	clear:both;
+}
+/* start menu */
+.menu {
+	height:30px;
+	padding-left:120px;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.menu ul li {
+	padding: 0;
+	margin:0px;
+	display:inline;
+}
+.menu ul li a {
+	float: left;
+	display: block;
+	height:22px;
+	font-size: 15px;
+	font-weight:700;
+	text-align: center;
+	margin-right:7px;
+	text-decoration: none;
+	color:#fff;
+	padding:8px 12px 0px 12px;
+	background-color:#000;
+}
+.menu li a:hover, #menu li .current {
+	color: #fff;
+	background-color:#0092d6;
+}
+/* end of menu */

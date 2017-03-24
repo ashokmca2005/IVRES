@@ -1,0 +1,58 @@
+#map-image {
+	background:url(../images/home-map.png) no-repeat left top;
+	/*
+	background:url(../images/map.gif) no-repeat left top;
+	*/
+	width:399px;
+	height:337px;
+	border:0;
+	position:relative;
+}
+.map-hover {
+	width:177px;
+	height:76px;
+	background:url(../images/map-deals-hover.png) no-repeat left top;
+	position:relative;
+	margin-bottom:-7em;
+	left:12.5em;
+	top:-18px;
+	padding:13px 16px 0;
+	overflow:hidden;
+	_width:209px;
+}
+.map-hover p {
+	margin:0;
+	line-height:normal;
+	width:177px;
+}
+.map-hover .h-state {
+	color:#000;
+}
+.map-hover .h-rentals {
+	float:left;
+	color:#818181;
+}
+.map-hover .h-deals {
+	float:right;
+	color:#34b44b;
+	font-weight:bold;
+}
+.left-column {
+	width:614px;
+	float:left;
+}
+.mid-content {
+	margin-left:-5px;
+	margin-bottom:10px;
+}
+.mini-column {
+	float:left;
+	width:268px;
+	padding:18px;
+	_width:305px;
+	background:url(../images/half-column.jpg) no-repeat left top;
+}
+#center .mini-column h2 {
+	margin-top:8px;
+	margin-bottom:8px;
+}

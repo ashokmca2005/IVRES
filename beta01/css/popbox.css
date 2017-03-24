@@ -1,0 +1,127 @@
+#pop-login {
+	width: 434px;
+	height: 100px;
+	float: left;
+	display: inline;
+	visibility: hidden;
+}
+
+#pop-login-tp {
+	width: 434px;
+	height: 15px;
+	float: left;
+	background: url(../images/bg-login-top.png) no-repeat;
+}
+
+#pop-login-bt {
+	width: 434px;
+	height: 15px;
+	float: left;
+	background: url(../images/bg-login-bot.png) no-repeat;
+}
+#pop-login-md {
+	width: 379px;
+	position: relative;
+	float: left;
+	background: url(../images/bg-login-mid.png) repeat-y;
+	padding: 20px 20px 20px 35px;
+}
+#close-pop {
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+}
+.row {
+	margin: 6px 0;
+}
+
+.row input {
+	padding: 5px;
+	border: 1px solid #c9c9c9;
+
+}
+
+.row input a:hover {
+	border: 1px solid red;
+}
+
+.row textarea,
+.row input {
+	font: 12px Arial;
+	color: #666;
+	width: 200px;
+}
+
+.submit-row {
+	height: 49px;
+	margin: 20px 0 0 110px;
+	position:relative;
+	top:.5em;
+	line-height: 33px;
+}
+ .row label {
+	color: #000;
+	width: 100px;
+	text-align: right;
+	display: block;
+	float: left;
+	line-height: 26px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+
+ label.remember {
+	color: #666;
+	font-size: 12px;
+	float: left;
+	line-height: 18px;
+	width: 220px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+
+
+.left110 {
+	padding-left: 110px;
+}
+
+.black15 {
+	color: #000000;
+	line-height: 18px;
+	font-size: 15px;
+}
+
+.black24 {
+	color: #000000;
+	letter-spacing: -0.5px;
+	line-height: 28px;
+	font-size: 24px;
+}
+.mgn-bt-5 {
+	margin-bottom: 5px;
+}
+ .row input.check {
+	width: 20px;
+	float: left;
+	margin: 2px 0 0;
+	padding: 0;
+}
+
+ .row input a:hover {
+	border: 1px solid red;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #4c72aa;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+

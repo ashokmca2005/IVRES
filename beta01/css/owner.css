@@ -1,0 +1,351 @@
+@charset "utf-8";
+@import url("common.css");
+.box-t {
+	background: top url(../images/t.gif) repeat-x;
+}
+.box-r {
+	background: right url(../images/r.gif) repeat-y;
+}
+.box-b {
+	background: bottom url(../images/b.gif) repeat-x;
+}
+.box-l {
+	background: left url(../images/l.gif) repeat-y;
+}
+.box-tr {
+	background: top right url(../images/tr.gif) no-repeat;
+}
+.box-br {
+	background: bottom right url(../images/br.gif)) no-repeat;
+}
+.box-bl {
+	background: bottom left url(../images/bl.gif) no-repeat;
+}
+.box-tl {
+	background: top left url(../images/tl.gif) no-repeat;
+	padding:10px 0px 10px 10px;
+}
+.box-tr_new {
+	background: top right url(../images/tr_new.gif) no-repeat;
+	padding-bottom:20px;
+}
+.box-tl_deal {
+	background:-5px -2px url(../images/best_deal.gif) no-repeat;
+	padding:25px 10px 10px 28px;
+}
+.left_nav {
+	width:200px;
+	float:left;
+}
+.left_nav ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.left_nav ul li {
+	background:0% 50% url(../images/bullet.gif) no-repeat;
+	padding-left:15px;
+	float:none;
+}
+.col {
+	border:1px solid #e8e4e3;
+	width:153px;
+	padding:2px;
+	float:left;
+	margin-left:8px;
+}
+.right_area {
+	width:777px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	margin-left:10px;
+}
+.right_area a {
+	color: #0033FF;
+}
+.right_area h5.important {
+	color:#ff0000;
+}
+.content_area {
+	padding-top:10px;
+}
+.links_inner {
+	width:351px;
+	height:149px;
+	background:url(../images/links_bg.gif) no-repeat;
+	padding:20px;
+}
+.deal {
+	margin-top:40px;
+}
+.facebook {
+	float:left;
+}
+.box {
+	margin-bottom:10px;
+}
+.box li {
+	border-bottom:1px solid #e0e8f8;
+	line-height:25px;
+}
+.box-tl_new {
+	background:-5px -2px url(../images/tl_new.gif) no-repeat;
+	padding:25px 10px 10px 30px;
+	position:relative;
+}
+.left_arrow {
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:128px;
+	left:5px;
+}
+.right_arrow {
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:128px;
+	right:2px;
+}
+
+.deal_left_arrow {
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:128px;
+	left:5px;
+}
+.deal_right_arrow {
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:128px;
+	right:5px;
+}
+.box-tl_new h3 {
+	margin-left:30px;
+}
+.col_wrapper {
+	padding:30px 5px 10px 40px;
+}
+p.share {
+	display:inline;
+	margin:0px;
+	padding:0px;
+	float:right;
+	line-height:40px;
+	background:0% 50% url(../images/share_icon.gif) no-repeat;
+	padding-left:20px;
+}
+html *p.share {
+	line-height:5px;
+	margin-top:0px;
+	padding-top:10px;
+}
+.signup-box {
+	float: left;
+	width: 187px;
+	height: 22px;
+	padding: 0;
+}
+#search form {
+	height: 22px;
+	margin: 0;
+}
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.search-text {
+	width: 186px;
+	height:22px;
+	margin-top:15px;
+	line-height:22px;
+	padding-left:5px;
+	padding-top:3px;
+	border: none;
+	background: url(../images/input_bg.gif) no-repeat;
+	text-transform: capitalize;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #808080;
+}
+.newsletter_icon {
+	margin-right:55px;
+	margin-top:10px;
+	float:right;
+}
+.button {
+	margin-top:0px;
+}
+.twitter_image {
+	margin-left:30px;
+	margin-top:-7px;
+}
+.twitter {
+	margin-left:30px;
+}
+.facebook_icon {
+	margin-left:35px;
+	margin-top:-5px;
+}
+.facebook_text {
+	margin-left:20px;
+}
+p.property {
+	color:#646f9d;
+	font-weight:bold;
+}
+p.discription {
+	color:#27a9dc;
+}
+h3 em {
+	font-weight:normal;
+}
+h1.ad_property {
+	font-size:16px;
+	display:inline;
+}
+.adding_property {
+	position:relative;
+	top:10px;
+}
+.box-t_premium {
+	background: top url(../images/t_premium.gif) repeat-x;
+}
+.box-r_premium {
+	background: right url(../images/r_premium.gif) repeat-y;
+}
+.box-b_premium {
+	background: bottom url(../images/b_premium.gif) repeat-x;
+}
+.box-l_premium {
+	background: left url(../images/l_premium.gif) repeat-y;
+}
+.box-tr_premium {
+	background: top right url(../images/tr_premium.gif) no-repeat;
+}
+.box-br_premium {
+	background: bottom right url(../images/br_premium.gif) no-repeat;
+}
+.box-bl_premium {
+	background: bottom left url(../images/bl_premium.gif) no-repeat;
+}
+.box-tl_premium {
+	background: top left url(../images/tl_premium.gif) no-repeat;
+	padding:10px;
+}
+
+li.calendar-li-left {
+	background:url(../images/chklst-bg.gif) repeat-x left top;
+	margin:0px;
+	padding:5px 0px 0px;
+	height:24px;
+	width:457px;
+	font-size:12px
+}
+p.key {
+	color:#333;
+	font-size:12px;
+	padding-right:8px;
+	float:left;
+	height:21px;
+	line-height:21px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold
+}
+p.available {
+	color:#333;
+	font-size:12px;
+	padding-right:15px;
+	float:left;
+	padding-left:26px;
+	background:url(../images/calendar-available1.gif) no-repeat left top;
+	height:21px;
+	line-height:21px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold
+}
+p.booked {
+	color:#333;
+	font-size:12px;
+	padding-right:15px;
+	float:left;
+	padding-left:26px;
+	background:url(../images/calendar-booked.gif) no-repeat left top;
+	height:21px;
+	line-height:21px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold
+}
+p.unavailable {
+	color:#333;
+	font-size:12px;
+	padding-right:15px;
+	float:left;
+	padding-left:26px;
+	background:url(../images/calendar-unavailable.gif) no-repeat left top;
+	height:21px;
+	line-height:21px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold
+}
+p.special {
+	color:#333;
+	font-size:12px;
+	padding-right:5px;
+	float:left;
+	background:url(../images/calendar-special.gif) no-repeat left center;
+	padding-left:20px
+}
+p.unknown {
+	color:#333;
+	font-size:12px;
+	padding-right:5px;
+	float:left;
+	background:url(../images/calendar-unknown.gif) no-repeat left center;
+	padding-left:20px
+}
+p.changeover {
+	color:#333;
+	font-size:12px;
+	padding-right:7px;
+	float:left;
+	background:url(../images/calendar-changeover.gif) no-repeat left center;
+	padding-left:20px;
+	width:120px
+}
+div.calendars {
+	padding:0px 20px;
+	float:left;
+	width:650px;
+	margin:0px;
+	clear:both
+}
+.month {
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding-top:15px;
+	padding-bottom:2px;
+	width:183px;
+	color:#585858
+}
+.changeover-date {
+	background:#FFF;
+	height:25px;
+	width:25px;
+	padding-right:2px;
+	border:1px solid #CCC;
+	font-size:11px;
+	color:#585858;
+	text-align:right
+}
+.owner-headings1 {
+	color:#357bdc;
+	font-size:16px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px
+}
